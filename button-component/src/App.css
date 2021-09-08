@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.App div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.variant-div, .disabled-div{
+    width: 300px;
+}
+
+.icon-div{
+    width: 500px;
+}
+
+.size-div{
+    width: 600px;
+}
+
+.color-div{
+    width: 800px;
+}

@@ -1,0 +1,151 @@
+.button button,
+.default button{
+  background-color: #E0E0E0;
+  color: #3F3F3F;
+  font-size: 14px;
+  padding: 8px 16px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+  cursor: pointer;
+}
+  
+.button :hover,
+.button :focus{
+  background-color: rgba(174, 174, 174, 1);
+  color: rgba(63, 63, 63, 1);
+  transition: 0.2s;
+}
+  
+.outline button{
+  background-color: transparent;
+  color: rgba(61, 90, 254, 1);
+  border: rgba(61, 90, 254, 1) 1px solid;
+  box-shadow: none;
+}
+
+.outline :hover,
+.outline :focus{
+  background: rgba(94, 96, 102, 0.1);
+  transition: 0.2s;
+  color: rgba(61, 90, 254, 1);
+}
+
+.text button{
+  background-color: transparent;
+  color: rgba(61, 90, 254, 1);
+  box-shadow: none;
+}
+
+.text :hover,
+.text :focus{
+  background: rgba(94, 96, 102, 0.1);
+  transition: 0.2s;
+  color: rgba(61, 90, 254, 1);
+}
+
+.disableShadow button{
+  color: white;
+  background-color: #3D5AFE;
+  box-shadow: none;
+}
+
+.disableShadow :hover,
+.disableShadow :focus{
+  color: white;
+  background-color: #0039CB;
+  transition: 0.2s;
+}
+
+.disabled button{
+  background-color: #E0E0E0;
+  color: #9E9E9E;
+  box-shadow: none;
+  pointer-events: none;
+}
+
+
+.disabled.text button{
+  background-color: transparent;
+  color: #9E9E9E;
+}
+
+.start-icon button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  gap: 5px;
+  background-color: #3D5AFE;
+}
+
+.end-icon button{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  color: white;
+  gap: 5px;
+  background-color: #3D5AFE;
+}
+
+.start-icon :hover,
+.end-icon :hover,
+.start-icon :focus,
+.end-icon :focus{
+  color: white;
+  background-color: #0039CB;
+  transition: 0.2s;
+}
+
+.sm button{
+  padding: 6px 12px;
+}
+
+.md button{
+  padding: 8px 16px;
+}
+
+.lg button{
+  padding: 11px 22px;
+}
+
+.primary button{
+  color: white;
+  background-color: #3D5AFE;
+}
+
+.primary :hover,
+.primary :focus{
+  color: white;
+  background-color: #0039CB;
+  transition: 0.2s;
+}
+
+.secondary button{
+  background-color: #455A64;
+  color: white;
+}
+
+.secondary :hover,
+.secondary :focus{
+  color: white;
+  background-color: #1C313A;
+  transition: 0.2s;
+}
+
+.danger button{
+  color: white;
+  background-color: #D32F2F;
+}
+
+.danger :hover,
+.danger :focus{
+  background-color: #9A0007;
+  color: white;
+  transition: 0.2s;
+}
+
+
